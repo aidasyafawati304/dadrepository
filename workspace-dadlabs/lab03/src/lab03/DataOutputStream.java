@@ -28,7 +28,7 @@ public class DataOutputStream {
 				fosObject.write(0);
 				fosObject.write(0);
 				fosObject.write(0);
-				fosObject.write(0);
+				fosObject.write(8);
 				
 				// 4. Clear the stream
 				fosObject.flush();
