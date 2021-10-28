@@ -3,6 +3,12 @@ package lab03;
 import java.io.FileOutputStream;
 import java.io.IOException;
 
+/**
+ * 
+ * @author aida
+ *
+ */
+
 public class DataOutputStream {
 	
 		public static void main(String[] args) {
@@ -17,12 +23,12 @@ public class DataOutputStream {
 				FileOutputStream fosObject = new FileOutputStream(targetStorage);
 
 				// 3. Create write data into stream
-				fosObject.write(1);
-				fosObject.write(2);
-				fosObject.write(3);
-				fosObject.write(4);
-				fosObject.write(5);
-				fosObject.write(6);
+				fosObject.write(0);
+				fosObject.write(0);
+				fosObject.write(0);
+				fosObject.write(0);
+				fosObject.write(0);
+				fosObject.write(0);
 				
 				// 4. Clear the stream
 				fosObject.flush();
