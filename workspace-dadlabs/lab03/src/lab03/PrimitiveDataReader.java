@@ -7,10 +7,9 @@ import java.io.FileInputStream;
  * This program demonstrate reading byte-based data as it intended type 
  * it is using DataInputStream.
  * 
- * The data represents 6 days reading of daily rainfall in Cheng (Taman Merdeka) 
+ * The data represents 6 days reading of daily rainfall in Melaka 
  * 
- * The program calculates the average rainfall from selected station Cheng (Taman Merdeka) and display it on the console.
- * 
+ * The program calculates the average raifall in Melaka from selected station Cheng (Taman Merdeka) and display it on the console.
  * @author aida
  *
  */
