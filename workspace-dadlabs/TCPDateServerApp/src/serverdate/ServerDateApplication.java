@@ -12,7 +12,6 @@ import java.net.Socket;
  * @author emalianakasmuri
  *
  */
-
 public class ServerDateApplication {
 
 	
