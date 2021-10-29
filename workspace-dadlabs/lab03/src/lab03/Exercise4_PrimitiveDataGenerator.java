@@ -12,7 +12,7 @@ public static void main(String[] args) {
 		String outFile = "dataRainfall.txt";
 		
 		// Data declaration
-		String name[] = Hospital Jasin;
+		//---------------String name[] = Hospital Jasin;
 		String date[] = {"22Oct", "23Oct", "24Oct", "25Oct", "26Oct", "27Oct"};
 		double rainfall[] = {0.0, 0.0, 0.0, 0.0, 0.0, 8.0};
 		
@@ -25,7 +25,7 @@ public static void main(String[] args) {
 			for (int index = 0; index < date.length; index++) {
 				
 				// 3. Write data into data stream
-				dos.writeUTF(name[index]);
+				//------------dos.writeUTF(name[index]);
 				dos.writeUTF(date[index]);
 				dos.writeDouble(rainfall[index]);
 				
