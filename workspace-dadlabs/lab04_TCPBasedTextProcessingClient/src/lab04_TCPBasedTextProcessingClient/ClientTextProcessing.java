@@ -27,7 +27,7 @@ public class ClientTextProcessing {
 	
 	c=sc1.nextInt();
 	System.out.println(c);
-	
+ 
 
 }
 

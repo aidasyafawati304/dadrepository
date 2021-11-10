@@ -21,7 +21,7 @@ public class ClientDateApplication {
 	public static void main(String[] args) throws UnknownHostException, 
 		IOException {
 		
-		
+	
 		// Launch client-side frame
 		ClientDateFrame clientDateFrame = new ClientDateFrame();
 		clientDateFrame.setVisible(true);
