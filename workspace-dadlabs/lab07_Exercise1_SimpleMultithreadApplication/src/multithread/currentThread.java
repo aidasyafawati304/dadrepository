@@ -8,7 +8,7 @@ public class currentThread extends Thread {
 	public void printNumbers (String currentThread) {
 		
 		LocalTime time = LocalTime.now();
-		DateTimeFormatter timeformat = DateTimeFormatter.ofPattern("HH:MM:SS");
+		DateTimeFormatter timeformat = DateTimeFormatter.ofPattern("HH:mm:ss");
 		String timeFormatted = time.format(timeformat);
 		
 		for(int i=0; i<10; i++)
