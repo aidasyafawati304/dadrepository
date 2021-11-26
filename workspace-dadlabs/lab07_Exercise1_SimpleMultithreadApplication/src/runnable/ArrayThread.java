@@ -8,13 +8,13 @@ public class ArrayThread implements Runnable {
 
 	public void arrayText() {
 		String arr[] = {"It","is","recommended","to","use","Calendar","class"};
-		Random num = new Random();
+		Random number = new Random();
 		
 		// set to avoid duplicate data
 		Set<Integer> set = new LinkedHashSet<Integer>();
 
 		while (set.size() < arr.length) {
-			set.add(num.nextInt(arr.length));
+			set.add(number.nextInt(arr.length));
 		}
 
 		Object textArr[] = set.toArray();
